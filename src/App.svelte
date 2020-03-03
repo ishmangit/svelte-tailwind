@@ -2,6 +2,12 @@
   export let name;
 </script>
 
-<div class="bg-red-500">
+<style lang="postcss">
+  .green-color {
+    @apply bg-green-700;
+  }
+</style>
+
+<div class="green-color">
   <h1>Hello {name}!</h1>
 </div>
